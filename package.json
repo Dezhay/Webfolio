@@ -1,0 +1,23 @@
+{
+  "name": "webfolio",
+  "version": "1.0.0",
+  "description": "Web Portfolio for Dezhay",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dezhay/Webfolio.git"
+  },
+  "author": "Dezhay Caraway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dezhay/Webfolio/issues"
+  },
+  "homepage": "https://github.com/Dezhay/Webfolio#readme"
+}
