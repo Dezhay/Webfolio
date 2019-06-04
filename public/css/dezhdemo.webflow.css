@@ -143,7 +143,7 @@
   text-align: center;
 }
 
-.heading {
+.techheader {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
@@ -160,7 +160,7 @@
   text-transform: capitalize;
 }
 
-.container-2 {
+.techcontainer {
   margin-bottom: 0px;
   padding: 100px 40px;
   background-color: #222;
@@ -181,7 +181,7 @@
   background-color: #eec661;
 }
 
-.heading-3 {
+.finaltext {
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 0px;
@@ -200,7 +200,7 @@
   text-align: right;
 }
 
-.container-4 {
+.selfcontainer {
   display: block;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
@@ -212,11 +212,11 @@
   text-align: right;
 }
 
-.nav-link {
+.navgit {
   font-size: 20px;
 }
 
-.nav-link-2 {
+.navcontact {
   font-size: 20px;
 }
 
@@ -271,7 +271,7 @@
   list-style-type: none;
 }
 
-.columns-2 {
+.techcolumns {
   margin-top: 60px;
 }
 
@@ -301,17 +301,17 @@
   padding-left: 10px;
 }
 
-.container-5 {
+.aboutcontainer {
   display: block;
 }
 
-.container-6 {
+.logoimagecontainer {
   margin-bottom: 0px;
   padding-bottom: 40px;
   text-align: center;
 }
 
-.heading-4 {
+.logoheader {
   margin-left: 100px;
   padding-top: 0px;
   padding-bottom: 10px;
@@ -480,7 +480,7 @@
   padding-right: 0px;
 }
 
-.text-block-3 {
+.techfoot {
   padding-top: 40px;
   color: #fff;
   font-size: 34px;
@@ -495,7 +495,7 @@
   background-color: #000;
 }
 
-.text-block-4 {
+.bgheader {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 100px;
@@ -564,7 +564,7 @@
   margin-top: 0px;
 }
 
-.div-block-4 {
+.bgdemopics {
   display: block;
   overflow: visible;
   width: 992px;
@@ -622,7 +622,7 @@
   font-weight: 300;
 }
 
-.paragraph-4 {
+.bgparagraph {
   margin-right: 220px;
   margin-left: 200px;
   padding-top: 40px;
@@ -634,13 +634,13 @@
   text-align: right;
 }
 
-.div-block-5 {
+.bgbuttonblock {
   padding-top: 40px;
   padding-bottom: 0px;
   text-align: center;
 }
 
-.text-block-6 {
+.logodescr {
   margin-left: 100px;
   padding-bottom: 60px;
   font-size: 23px;
@@ -698,16 +698,16 @@
     padding-right: 40px;
     padding-left: 40px;
   }
-  .columns-2 {
+  .techcolumns {
     padding-right: 40px;
     padding-left: 0px;
   }
-  .container-6 {
+  .logoimagecontainer {
     display: block;
     padding-right: 40px;
     padding-left: 40px;
   }
-  .heading-4 {
+  .logoheader {
     margin-left: 60px;
     font-size: 46px;
   }
@@ -793,21 +793,21 @@
   .beeg {
     overflow: hidden;
   }
-  .text-block-4 {
+  .bgheader {
     padding-left: 40px;
     line-height: 40px;
   }
-  .div-block-4 {
+  .bgdemopics {
     overflow: hidden;
   }
   .headsubblock {
     padding-left: 40px;
   }
-  .paragraph-4 {
+  .bgparagraph {
     margin-right: 40px;
     font-size: 18px;
   }
-  .text-block-6 {
+  .logodescr {
     margin-right: 20px;
     margin-left: 60px;
     font-size: 20px;
@@ -855,13 +855,13 @@
   .container-3 {
     background-color: #eec356;
   }
-  .heading-3 {
+  .finaltext {
     line-height: 52px;
   }
   .image {
     padding-right: 0px;
   }
-  .container-5 {
+  .aboutcontainer {
     display: block;
     padding-bottom: 40px;
     -webkit-align-self: end;
@@ -869,7 +869,7 @@
     -ms-grid-row-align: end;
     align-self: end;
   }
-  .container-6 {
+  .logoimagecontainer {
     display: block;
   }
   .column {
@@ -939,13 +939,13 @@
   .column-9 {
     padding-top: 10px;
   }
-  .text-block-4 {
+  .bgheader {
     margin-right: 10px;
     margin-left: 10px;
     padding-left: 0px;
     line-height: 30px;
   }
-  .div-block-4 {
+  .bgdemopics {
     width: 100%;
     height: auto;
   }
@@ -966,11 +966,11 @@
     padding-top: 5px;
     padding-left: 0px;
   }
-  .paragraph-4 {
+  .bgparagraph {
     margin-left: 10px;
     padding-bottom: 60px;
   }
-  .text-block-6 {
+  .logodescr {
     margin-right: 20px;
     font-size: 20px;
   }
@@ -1002,12 +1002,12 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  .heading {
+  .techheader {
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-size: 24px;
   }
-  .container-2 {
+  .techcontainer {
     padding-top: 20px;
     padding-bottom: 40px;
     text-align: left;
@@ -1020,7 +1020,7 @@
   .goals {
     padding-bottom: 0px;
   }
-  .heading-3 {
+  .finaltext {
     padding-left: 0px;
     font-size: 24px;
     line-height: 51px;
@@ -1040,10 +1040,10 @@
   .list-2 {
     padding-left: 0px;
   }
-  .columns-2 {
+  .techcolumns {
     margin-top: 20px;
   }
-  .heading-4 {
+  .logoheader {
     margin-left: 10px;
   }
   .column-2 {
@@ -1087,11 +1087,11 @@
     margin-top: 0px;
     padding-top: 60px;
   }
-  .text-block-3 {
+  .techfoot {
     font-size: 25px;
     line-height: 30px;
   }
-  .text-block-4 {
+  .bgheader {
     margin-right: 10px;
     margin-left: 10px;
     font-size: 28px;
@@ -1101,11 +1101,11 @@
     margin-right: 10px;
     margin-left: 10px;
   }
-  .paragraph-4 {
+  .bgparagraph {
     margin-right: 10px;
     padding-bottom: 60px;
   }
-  .text-block-6 {
+  .logodescr {
     margin-left: 10px;
     padding-bottom: 20px;
   }
