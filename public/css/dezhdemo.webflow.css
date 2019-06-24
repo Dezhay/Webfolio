@@ -97,14 +97,14 @@
 .button {
   display: block;
   margin-top: 40px;
-  margin-right: 400px;
-  margin-left: 400px;
-  padding: 20px 40px;
+  margin-right: 350px;
+  margin-left: 350px;
+  padding: 20px 60px;
   border: 1px none #000;
   border-radius: 8px;
   background-color: #000;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 31px;
   font-style: normal;
   font-weight: 500;
@@ -213,7 +213,9 @@
 }
 
 .navgit {
+  font-family: Montserrat, sans-serif;
   font-size: 20px;
+  font-weight: 400;
 }
 
 .navcontact {
@@ -291,6 +293,7 @@
 }
 
 .image-3 {
+  display: block;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -306,18 +309,40 @@
 }
 
 .logoimagecontainer {
+  display: -ms-grid;
+  display: grid;
   margin-bottom: 0px;
   padding-bottom: 40px;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 44px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
   text-align: center;
 }
 
 .logoheader {
+  margin-bottom: 100px;
   margin-left: 100px;
   padding-top: 0px;
   padding-bottom: 10px;
   padding-left: 0px;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .column {
@@ -325,7 +350,7 @@
 }
 
 .columns-3 {
-  display: block;
+  display: none;
 }
 
 .poptakes {
@@ -472,8 +497,7 @@
 }
 
 .logos {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 184px;
 }
 
 .column-8 {
@@ -682,6 +706,63 @@
   font-size: 16px;
 }
 
+.image-16 {
+  width: 275px;
+  justify-items: center;
+}
+
+.grid {
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-row-gap: 47px;
+}
+
+.div-block-4 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.columns-7 {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.column-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 81px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.image-17 {
+  width: auto;
+  height: 30px;
+  margin-top: 10px;
+}
+
 @media (max-width: 991px) {
   .paragraph {
     margin-top: 44px;
@@ -802,6 +883,7 @@
   }
   .headsubblock {
     padding-left: 40px;
+    font-size: 14px;
   }
   .bgparagraph {
     margin-right: 40px;
@@ -978,13 +1060,22 @@
     width: 80%;
   }
   .image-15 {
-    width: 80%;
+    width: 72%;
   }
   .footoffoot {
     font-size: 12px;
   }
   .foottext {
     font-size: 13px;
+  }
+  .grid {
+    grid-auto-flow: row;
+  }
+  .div-block-4 {
+    padding-top: 80px;
+  }
+  .column-10 {
+    padding-top: 60px;
   }
 }
 
@@ -1114,6 +1205,9 @@
   }
   .heading-7 {
     font-size: 28px;
+  }
+  .grid {
+    justify-items: center;
   }
 }
 
